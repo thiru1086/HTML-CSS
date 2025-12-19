@@ -68,7 +68,7 @@
                 }
 
                 var li = document.createElement("li");
-                li.innerHTml = task + "<span class='delete' onclick='removeTask(this)'>x</span>";
+                li.innerHTML = task + "<span class='delete' onclick='removeTask(this)'>x</span>";
 
                 document.getElementById("taskList").appendChild(li);
                 document.getElementById("taskInput").value = "";
@@ -80,4 +80,5 @@
         </script>
 
     </body>
+
 </html>
